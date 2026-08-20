@@ -4,12 +4,12 @@ KOMPAN design tokens for iOS. **Generated — do not edit.** Every file here is
 produced by `@kompan-design/token-build` from the design system release of the
 same version, and this repository is rewritten on each release.
 
-Current version: `0.4.3`.
+Current version: `0.4.4`.
 
 ## Install
 
 ```swift
-.package(url: "https://github.com/wah-kompan/kompan-tokens-swift.git", from: "0.4.3")
+.package(url: "https://github.com/wah-kompan/kompan-tokens-swift.git", from: "0.4.4")
 ```
 
 Then add `KompanTokens` to your target's dependencies.
