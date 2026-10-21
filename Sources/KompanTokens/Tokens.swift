@@ -17,6 +17,9 @@
 import UIKit
 
 public class Tokens {
+    public static let colorAvatarEditingRing = UIColor(red: 0.678, green: 0.596, blue: 0.071, alpha: 1) /** PM-821, approved 21 October 2026. Editing-member ring aliases fg-warning-primary. Use with stroke-md and an explicit editing text equivalent; independent of keyboard focus. */
+    public static let colorAvatarFallbackFg = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.7019607843137254) /** PM-821, approved 21 October 2026. Initials and placeholder glyph in the Avatar family: 70% black in Light, 70% white in Dark. Keeps fg-quaternary unchanged. */
+    public static let colorAvatarVerifiedFg = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /** PM-821, approved 21 October 2026. Verified check foreground: white in Light, opaque #151516 in Dark. Existing badge background remains mode-aware. */
     public static let colorBgBrand = UIColor(red: 0.992, green: 0.914, blue: 0.918, alpha: 1)
     public static let colorBgBrandSolid = UIColor(red: 0.859, green: 0.102, blue: 0.141, alpha: 1)
     public static let colorBgErrorPrimary = UIColor(red: 0.996, green: 0.976, blue: 0.976, alpha: 1)
@@ -431,6 +434,9 @@ public class Tokens {
     public static let colorTabsSubtleFg = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.4)
     public static let colorTabsSubtleFgHover = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.6)
     public static let colorTabsSubtleFgSelected = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.8)
+    public static let colorTagFgBrand = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let colorTagFgSelected = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let colorTagFocusRing = UIColor(red: 0.765, green: 0.043, blue: 0.082, alpha: 1)
     public static let colorTextBrandHiContrast = UIColor(red: 0.475, green: 0.000, blue: 0.020, alpha: 1)
     public static let colorTextBrandPrimary = UIColor(red: 0.765, green: 0.043, blue: 0.082, alpha: 1)
     public static let colorTextBrandSecondary = UIColor(red: 0.859, green: 0.102, blue: 0.141, alpha: 1)
@@ -587,6 +593,7 @@ public class Tokens {
     public static let effectStylesFocusRingsFocusRingShadowXsSkeuomorphic = ShadowStyle([.init(0x15151633, spread: 1, inset: true), .init(0x1515160D, y: -2, inset: true), .init(0x1515160D, y: 1, blur: 2), .init(0xFFFFFFFF, spread: 2), .init(0xFCBFC2FF, spread: 4)])
     public static let effectStylesFocusRingsFocusRingSuccess = ShadowStyle([.init(0xFFFFFFFF, spread: 2), .init(0x00C88AFF, spread: 4)])
     public static let effectStylesFocusRingsFocusRingWarning = ShadowStyle([.init(0xFFFFFFFF, spread: 2), .init(0xFFF08AFF, spread: 4)])
+    public static let effectStylesFocusRingsTagFocusRing = ShadowStyle([.init(0xFFFFFFFF, spread: 2), .init(0xC30B15FF, spread: 4)])
     public static let effectStylesShadowsShadow2xl = ShadowStyle([.init(0x15151633, y: 24, blur: 48, spread: -12), .init(0x1515160D, y: 4, blur: 4, spread: -2)])
     public static let effectStylesShadowsShadow3xl = ShadowStyle([.init(0x1515161A, y: 32, blur: 64, spread: -12), .init(0x1515160D, y: 5, blur: 5, spread: -2.5)])
     public static let effectStylesShadowsShadowLg = ShadowStyle([.init(0x1515160D, y: 12, blur: 16, spread: -4), .init(0x15151605, y: 4, blur: 6, spread: -2), .init(0x1515160D, y: 2, blur: 2, spread: -1)])
@@ -1036,6 +1043,7 @@ public class Tokens {
     public static let segmentDynamicNeg4 = UIColor(red: 0.996, green: 0.976, blue: 0.976, alpha: 1)
     public static let segmentDynamicSubtleBgDark = UIColor(red: 0.302, green: 0.000, blue: 0.012, alpha: 1)
     public static let segmentDynamicSubtleBgLight = UIColor(red: 0.992, green: 0.914, blue: 0.918, alpha: 1)
+    public static let segmentTagFgOnBrand = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let spacing10xl = CGFloat(128)
     public static let spacing11xl = CGFloat(160)
     public static let spacing2xl = CGFloat(20)
