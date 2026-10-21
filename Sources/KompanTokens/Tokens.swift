@@ -20,6 +20,8 @@ public class Tokens {
     public static let colorAvatarEditingRing = UIColor(red: 0.678, green: 0.596, blue: 0.071, alpha: 1) /** PM-821, approved 21 October 2026. Editing-member ring aliases fg-warning-primary. Use with stroke-md and an explicit editing text equivalent; independent of keyboard focus. */
     public static let colorAvatarFallbackFg = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.7019607843137254) /** PM-821, approved 21 October 2026. Initials and placeholder glyph in the Avatar family: 70% black in Light, 70% white in Dark. Keeps fg-quaternary unchanged. */
     public static let colorAvatarVerifiedFg = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1) /** PM-821, approved 21 October 2026. Verified check foreground: white in Light, opaque #151516 in Dark. Existing badge background remains mode-aware. */
+    public static let colorBadgeFocusRing = UIColor(red: 0.765, green: 0.043, blue: 0.082, alpha: 1)
+    public static let colorBadgeWarningFg = UIColor(red: 0.510, green: 0.447, blue: 0.051, alpha: 1)
     public static let colorBgBrand = UIColor(red: 0.992, green: 0.914, blue: 0.918, alpha: 1)
     public static let colorBgBrandSolid = UIColor(red: 0.859, green: 0.102, blue: 0.141, alpha: 1)
     public static let colorBgErrorPrimary = UIColor(red: 0.996, green: 0.976, blue: 0.976, alpha: 1)
