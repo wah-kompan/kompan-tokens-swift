@@ -190,6 +190,7 @@ public class Tokens {
     public static let colorInputBorderSecondaryHover = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.2)
     public static let colorInputBorderSuccessFocus = UIColor(red: 0.482, green: 0.886, blue: 0.761, alpha: 1)
     public static let colorInputBorderWarningFocus = UIColor(red: 1.000, green: 0.965, blue: 0.722, alpha: 1)
+    public static let colorInputDropdownFocusRing = UIColor(red: 0.765, green: 0.043, blue: 0.082, alpha: 1) /** Input Dropdown keyboard-focus and open-state ring. Brand-aware, with Light/Dark aliases. Scoped to this family; does not alter the global button focus token. */
     public static let colorInputFgPlaceholder = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.6)
     public static let colorInputFgPrimary = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.8)
     public static let colorInputFgPrimaryDisabled = UIColor(red: 0.082, green: 0.082, blue: 0.086, alpha: 0.2)
@@ -598,6 +599,8 @@ public class Tokens {
     public static let effectStylesFocusRingsFocusRingShadowXsSkeuomorphic = ShadowStyle([.init(0x15151633, spread: 1, inset: true), .init(0x1515160D, y: -2, inset: true), .init(0x1515160D, y: 1, blur: 2), .init(0xFFFFFFFF, spread: 2), .init(0xFCBFC2FF, spread: 4)])
     public static let effectStylesFocusRingsFocusRingSuccess = ShadowStyle([.init(0xFFFFFFFF, spread: 2), .init(0x00C88AFF, spread: 4)])
     public static let effectStylesFocusRingsFocusRingWarning = ShadowStyle([.init(0xFFFFFFFF, spread: 2), .init(0xFFF08AFF, spread: 4)])
+    public static let effectStylesFocusRingsInputDropdownErrorFocusRing = ShadowStyle([.init(0x1515160D, y: 1, blur: 2), .init(0xFFFFFFFF, spread: 2), .init(0x970109FF, spread: 4)])
+    public static let effectStylesFocusRingsInputDropdownFocusRing = ShadowStyle([.init(0x1515160D, y: 1, blur: 2), .init(0xFFFFFFFF, spread: 2), .init(0xC30B15FF, spread: 4)])
     public static let effectStylesFocusRingsTagFocusRing = ShadowStyle([.init(0xFFFFFFFF, spread: 2), .init(0xC30B15FF, spread: 4)])
     public static let effectStylesShadowsShadow2xl = ShadowStyle([.init(0x15151633, y: 24, blur: 48, spread: -12), .init(0x1515160D, y: 4, blur: 4, spread: -2)])
     public static let effectStylesShadowsShadow3xl = ShadowStyle([.init(0x1515161A, y: 32, blur: 64, spread: -12), .init(0x1515160D, y: 5, blur: 5, spread: -2.5)])
